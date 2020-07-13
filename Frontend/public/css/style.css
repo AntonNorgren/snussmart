@@ -1,0 +1,48 @@
+input:focus {
+    outline: none;
+}
+
+.brand {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.brand__logo {
+    height: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.brand__header {
+    color: #434343;
+    font-family: 'Nobile', sans-serif;
+    font-size: 2rem;
+}
+
+.promo {
+    height: 55rem;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.promo__content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promo__search {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    width: 100%;
+}
+
+.promo__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

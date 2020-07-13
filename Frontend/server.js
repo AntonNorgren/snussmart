@@ -11,6 +11,8 @@ app.get('/snus/:snusId', function (req, res) {
     res.sendFile(path.join(__dirname + '/specific-snuff.html'));
 });
 
+app.use(express.static(__dirname + '/public'));
+
 app.listen(8000, () => {
     console.log('Example app listening on port 8000!')
 });
