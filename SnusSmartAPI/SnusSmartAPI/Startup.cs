@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SnusSmartAPI.DAL;
+using SnusSmartAPI.Services;
 
 namespace SnusSmartAPI
 {
@@ -23,7 +25,23 @@ namespace SnusSmartAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<SnusSmartContext>();
+            services.AddScoped<IRepository, Repository>();
+            services.AddScoped<ISnuffRepository, SnuffRepository>();
+
             services.AddControllersWithViews();
+            services.AddMvc(options => options.EnableEndpointRouting = false)
+                            .SetCompatibilityVersion(Microsoft
+                            .AspNetCore
+                            .Mvc
+                            .CompatibilityVersion
+                            .Version_3_0);
+
+            //services.AddControllers()
+            //         .AddNewtonsoftJson(options =>
+            //    {
+            //        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            //    });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
