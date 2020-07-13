@@ -4963,11 +4963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\source\\repos\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\Documents\\Brogramming\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
       "projectName": "SnusSmartAPI",
-      "projectPath": "C:\\Users\\anton\\source\\repos\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
+      "projectPath": "C:\\Users\\anton\\Documents\\Brogramming\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
       "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\source\\repos\\SnusSmartAPI\\SnusSmartAPI\\obj\\",
+      "outputPath": "C:\\Users\\anton\\Documents\\Brogramming\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

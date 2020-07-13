@@ -31,6 +31,13 @@ namespace SnusSmartAPI.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Brands");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Name = "Swedish Match"
+                        });
                 });
 
             modelBuilder.Entity("SnusSmartAPI.Models.PouchType", b =>
@@ -46,6 +53,13 @@ namespace SnusSmartAPI.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Variations");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Variation = "White"
+                        });
                 });
 
             modelBuilder.Entity("SnusSmartAPI.Models.Size", b =>
@@ -61,6 +75,13 @@ namespace SnusSmartAPI.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Sizes");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            PouchSize = "Normal"
+                        });
                 });
 
             modelBuilder.Entity("SnusSmartAPI.Models.Snuff", b =>
@@ -88,6 +109,17 @@ namespace SnusSmartAPI.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Snuff");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            BrandID = 1,
+                            Name = "General",
+                            PouchTypeID = 1,
+                            Price = 49,
+                            SizeID = 1
+                        });
                 });
 #pragma warning restore 612, 618
         }
