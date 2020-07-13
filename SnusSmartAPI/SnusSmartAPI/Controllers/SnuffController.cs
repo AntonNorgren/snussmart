@@ -22,7 +22,7 @@ namespace SnusSmartAPI.Controllers
             _snuffRepository = snuffRepository;
         }
 
-        [HttpGet]
+        [HttpGet (Name = "GetAllSnuff")]
         public virtual async Task<ActionResult<IList<Snuff>>> GetAllSnuff()
         {
             try
@@ -37,17 +37,6 @@ namespace SnusSmartAPI.Controllers
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Databasen bråkar: {e.Message}");
             }
-
         }
-
-        // GET: api/Snuffs
-        //[HttpGet(Name = "GetAllSnuff")]
-        // public async Task<ActionResult<IEnumerable<Snuff>>> GetSnuff()
-        // {
-        //     return await _context.Snuff.ToListAsync();
-        // }
-
-        // GET: api/Snuffs/5
-
     }
 }

@@ -60,9 +60,8 @@ namespace SnusSmartAPI.DAL
                     BrandID = 1,
                     PouchTypeID = 1,
                     SizeID = 1
+
                 });
-
         }
-
     }
 }
