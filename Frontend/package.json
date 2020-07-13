@@ -1,11 +1,15 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "snussmar",
-  "main": "index.js",
+  "description": "snussmart",
+  "main": "server.js",
   "scripts": {
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
