@@ -8550,23 +8550,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anton\\.nuget\\packages\\": {},
+    "C:\\Users\\Greattech\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anton\\Documents\\Brogramming\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Greattech\\Documents\\GitHub\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
       "projectName": "SnusSmartAPI",
-      "projectPath": "C:\\Users\\anton\\Documents\\Brogramming\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
-      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anton\\Documents\\Brogramming\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\obj\\",
+      "projectPath": "C:\\Users\\Greattech\\Documents\\GitHub\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\SnusSmartAPI.csproj",
+      "packagesPath": "C:\\Users\\Greattech\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Greattech\\Documents\\GitHub\\snussmart\\SnusSmartAPI\\SnusSmartAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Greattech\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8639,7 +8639,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
